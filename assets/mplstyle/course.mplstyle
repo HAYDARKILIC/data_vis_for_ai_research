@@ -1,0 +1,42 @@
+# Course-wide Matplotlib style.
+# Load with:  plt.style.use("assets/mplstyle/course.mplstyle")
+
+# Figure
+figure.figsize: 7.0, 4.3
+figure.dpi: 110
+savefig.dpi: 180
+savefig.bbox: tight
+savefig.transparent: False
+
+# Fonts
+font.family: sans-serif
+font.size: 11
+axes.titlesize: 13
+axes.titleweight: 600
+axes.labelsize: 11
+
+# Axes
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: True
+axes.grid.axis: y
+grid.color: dddddd
+grid.linewidth: 0.6
+axes.axisbelow: True
+
+# Ticks
+xtick.direction: out
+ytick.direction: out
+xtick.major.size: 4
+ytick.major.size: 4
+
+# Lines and markers
+lines.linewidth: 1.8
+lines.markersize: 5
+
+# Colors — Okabe–Ito, colorblind-safe
+axes.prop_cycle: cycler("color", ["0072B2","D55E00","009E73","CC79A7","F0E442","56B4E9","E69F00","000000"])
+
+# Legend
+legend.frameon: False
+legend.fontsize: 10
