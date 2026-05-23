@@ -5,10 +5,6 @@ Each week is built as a pair of Jupyter notebooks — a **theory** notebook that
 conceptual foundation, and a **lab** notebook that puts the ideas into practice on real
 datasets and models.
 
-> **Audience.** ML engineers, applied researchers, and graduate students who already know
-> Python and the basics of NumPy / Pandas / scikit-learn and want to upgrade their
-> visualization fluency for research-grade work.
-
 ---
 
 ## Course at a glance
@@ -79,8 +75,8 @@ actually reflects the model's decision.
 ### Option A — local install (recommended)
 
 ```bash
-git clone https://github.com/<your-org>/data-viz-for-ai-research.git
-cd data-viz-for-ai-research
+git clone https://github.com/HAYDARKILIC/data_vis_for_ai_research.git
+cd data_vis_for_ai_research
 python -m venv .venv
 source .venv/bin/activate          # on Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -95,7 +91,7 @@ still runs in a few minutes.
 
 ```bash
 conda env create -f environment.yml
-conda activate data-viz-ai
+conda activate data_vis_for_ai_research
 jupyter lab
 ```
 
@@ -121,12 +117,6 @@ Each lab notebook ends with a short **"what to do differently in your own resear
 section that translates the lab's choices into guidance for your own work.
 
 ---
-
-## Contributing
-
-Pull requests are welcome — corrections, additional exercises, alternative datasets, or
-translations. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the workflow.
-
 ## License
 
 The course materials are released under the MIT License (see [`LICENSE`](LICENSE)).
