@@ -1,9 +1,6 @@
 # Data Visualization for AI Research
 
-A 6-week, hands-on course on visualization techniques for modern AI research workflows.
-Each week is built as a pair of Jupyter notebooks — a **theory** notebook that builds the
-conceptual foundation, and a **lab** notebook that puts the ideas into practice on real
-datasets and models.
+This repository contains a structured, production-focused 6-week curriculum dedicated to translating complex machine learning models into interpretable, visual, and trackable assets. Moving from high-dimensional statistical visualizations to real-time experiment tracking and deep learning feature attribution, this course masters the tools required to build transparent and trustworthy AI systems.
 
 ---
 
